@@ -1,12 +1,75 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📝 React Todo App
 
-Currently, two official plugins are available:
+A sleek and responsive Todo application built using **React** and **Tailwind CSS**, with routing support via **React Router DOM**. Create, manage, and keep track of your daily tasks with a beautiful UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Add, delete, and manage tasks
+- 🌓 Responsive layout (mobile-friendly)
+- 🌈 Styled with Tailwind CSS
+- 🧭 React Router support for navigation (`Home`, `About`, `Contact`)
+- 💾 Local state management using React Hooks
+
+---
+
+## 📸 Screenshots
+
+> _Add screenshots of your UI here if you have some_
+
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router DOM](https://reactrouter.com/)
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/todo-app.git
+cd todo-app
+npm install
+npm start
+```
+
+---
+
+## 📁 Folder Structure
+
+```
+todo-app/
+├── public/
+├── src/
+│   ├── components/
+│   │   └── Navbar.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   └── Contact.jsx
+│   ├── App.js
+│   └── index.js
+├── tailwind.config.js
+└── package.json
+```
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+---
+
+Made with ❤️ by Aditya Suhane
